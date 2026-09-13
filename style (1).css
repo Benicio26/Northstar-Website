@@ -1,0 +1,148 @@
+:root {
+  --navy: #043a6d;
+  --accent: #878992;   /* decorative only — never used for text */
+  --muted: #5e6067;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; /* Poppins Light */
+  margin: 0;
+  color: var(--black);
+  background: var(--white);
+  line-height: 1.65;
+}
+
+header {
+  background: var(--navy);
+  padding: 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .brand {
+  color: var(--white);
+  text-decoration: none;
+}
+
+header .brand .name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; /* Poppins Extra Bold */
+  font-size: 1.15rem;
+  display: block;
+}
+
+header .brand .tagline {
+  color: var(--white);
+  opacity: 0.75;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  border-bottom: 2px solid var(--accent);
+}
+
+.hero {
+  background: var(--navy);
+  color: var(--white);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700; /* Rajdhani Bold, for the largest heading on the site */
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.hero p {
+  color: var(--white);
+  opacity: 0.85;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 760px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; /* Poppins Extra Bold */
+  color: var(--navy);
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* Poppins Semi Bold */
+  color: var(--navy);
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  background: var(--white);
+}
+
+.card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* Poppins Semi Bold */
+  margin-top: 0;
+  color: var(--navy);
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+a.button {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background: var(--navy);
+  color: var(--white);
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+a.button:hover {
+  background: var(--accent);
+  color: var(--white);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--accent);
+  margin-top: 3rem;
+}
