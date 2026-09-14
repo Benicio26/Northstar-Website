@@ -112,6 +112,22 @@ h2 {
   color: var(--navy);
 }
 
+.project-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.project-card-body {
+  padding: 1.25rem 1.5rem;
+}
+
 .team-card {
   display: flex;
   gap: 1.25rem;
