@@ -91,6 +91,10 @@ main {
   padding: 0 2rem;
 }
 
+main.wide {
+  max-width: 960px;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800; /* Poppins Extra Bold */
