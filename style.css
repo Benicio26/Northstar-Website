@@ -151,6 +151,18 @@ h2 {
   background: #000;
 }
 
+.team-card.featured {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-card.featured .team-photo {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 0.75rem;
+}
+
 .team-card .team-bio {
   flex: 1;
 }
