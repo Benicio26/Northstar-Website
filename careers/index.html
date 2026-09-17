@@ -32,13 +32,22 @@
     <h1>Careers</h1>
     <p>Interested in working with us? We are an actively growing organisation, and we are frequently looking for capable and motivated staff to join our team. Most positions are remote, although some may be based in Prague or Phnom Penh.</p>
 
-    <div class="card">
+    <div id="no-positions" class="card">
       <h3>No open positions right now</h3>
       <p>Please send us an email to discuss other possibilities for collaboration, or to receive future updates about available positions.</p>
     </div>
 
     <a class="button" href="mailto:contact@northstar-sg.com">Get in Touch</a>
   </main>
+
+  <script>
+    // Show the "no open positions" card only when there are zero .job-listing cards.
+    var jobs = document.querySelectorAll('.job-listing');
+    var noPositions = document.getElementById('no-positions');
+    if (noPositions) {
+      noPositions.style.display = jobs.length > 0 ? 'none' : '';
+    }
+  </script>
 
   <footer>
     <div class="social-icons">
