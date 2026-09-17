@@ -192,6 +192,43 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.ceo-message {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.ceo-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  flex-shrink: 0;
+  background: #000;
+}
+
+.ceo-signature {
+  height: 55px;
+  width: auto;
+  display: block;
+  margin-top: 1rem;
+}
+
+.ceo-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 600px) {
+  .ceo-message {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 .muted {
   color: var(--muted);
   font-size: 0.9rem;
