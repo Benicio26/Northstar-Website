@@ -252,12 +252,47 @@ a.button:hover {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 2rem;
   color: var(--muted);
   font-size: 0.85rem;
   border-top: 1px solid var(--accent);
   margin-top: 3rem;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-legal a {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  color: var(--navy);
+}
+
+.footer-main {
+  text-align: center;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  footer {
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-legal {
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 .social-icons {
