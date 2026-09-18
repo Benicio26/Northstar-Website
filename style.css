@@ -192,6 +192,16 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.content-image {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  display: block;
+  margin: 1.5rem 0;
+}
+
 .ceo-message {
   display: flex;
   flex-direction: column;
