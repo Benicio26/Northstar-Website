@@ -207,7 +207,7 @@ h2 {
   height: 440px;
   max-width: none;
   flex-shrink: 0;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 .team-card {
