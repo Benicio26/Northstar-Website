@@ -143,6 +143,25 @@ h2 {
   padding: 1.25rem 1.5rem;
 }
 
+.news-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.news-links a {
+  color: var(--navy);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.news-links a:hover {
+  text-decoration: underline;
+}
+
 .team-card {
   display: flex;
   flex-direction: column;
