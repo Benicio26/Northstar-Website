@@ -188,6 +188,24 @@ h2 {
   object-fit: cover;
 }
 
+.post-gallery.scroll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 0.75rem;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+.post-gallery.scroll img {
+  width: auto;
+  height: 260px;
+  max-width: none;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
 .team-card {
   display: flex;
   flex-direction: column;
