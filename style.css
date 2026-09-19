@@ -200,7 +200,7 @@ h2 {
 
 .post-gallery.scroll img {
   width: auto;
-  height: 260px;
+  height: 400px;
   max-width: none;
   flex-shrink: 0;
   scroll-snap-align: start;
