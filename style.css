@@ -143,6 +143,10 @@ h2 {
   padding: 1.25rem 1.5rem;
 }
 
+.news-post .project-card-body {
+  padding-top: 1.15rem;
+}
+
 .news-links {
   display: flex;
   flex-wrap: wrap;
@@ -200,7 +204,7 @@ h2 {
 
 .post-gallery.scroll img {
   width: auto;
-  height: 400px;
+  height: 260px;
   max-width: none;
   flex-shrink: 0;
   scroll-snap-align: start;
